@@ -17,8 +17,8 @@ function DeckScreenDeleteDeckButton({ deckId }) {
   };
 
   return (
-    <button type="button" class="btn btn-danger" onClick={handleTrashClick}>
-      <span class="oi oi-trash" />
+    <button type="button" className="btn btn-danger" onClick={handleTrashClick}>
+      <span className="oi oi-trash" />
     </button>
   );
 }

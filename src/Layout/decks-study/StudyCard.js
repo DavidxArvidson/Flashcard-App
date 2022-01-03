@@ -54,12 +54,12 @@ function StudyCard({ cards, currentCard, setCurrentCard, deckId }) {
   // Renders the front of the card and the "Flip" button if isFrontOfCard is true
   if (isFrontOfCard) {
     return (
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">
+      <div className="card">
+        <div className="card-body">
+          <h5 className="card-title">
             Card {cardCount} of {cards.length}
           </h5>
-          <p class="card-text">{currentCard.front}</p>
+          <p className="card-text">{currentCard.front}</p>
           <FlipButton setIsFrontOfCard={setIsFrontOfCard} />
         </div>
       </div>
@@ -67,12 +67,12 @@ function StudyCard({ cards, currentCard, setCurrentCard, deckId }) {
   }
   // Renders the back of the card and the "Flip" and "Next" buttons if isFrontOfCard is false
   return (
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">
+    <div className="card">
+      <div className="card-body">
+        <h5 className="card-title">
           Card {cardCount} of {cards.length}
         </h5>
-        <p class="card-text">{currentCard.back}</p>
+        <p className="card-text">{currentCard.back}</p>
         <FlipButton setIsFrontOfCard={setIsFrontOfCard} />
         <NextButton NextCardHandler={NextCardHandler} />
       </div>

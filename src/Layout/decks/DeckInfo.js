@@ -12,28 +12,28 @@ function DeckInfo({ deckName, deckDescription, deckId, cards, url }) {
       <h1>{deckName}</h1>
       <p>{deckDescription}</p>
 
-      <div class="d-flex mb-4">
-        <div class="mr-auto">
+      <div className="d-flex mb-4">
+        <div className="mr-auto">
           <button
             type="button"
-            class="btn btn-secondary mr-2"
+            className="btn btn-secondary mr-2"
             onClick={() => history.push(`/decks/${deckId}/edit`)}
           >
-            <span class="oi oi-pencil" /> Edit
+            <span className="oi oi-pencil" /> Edit
           </button>
           <button
             type="button"
-            class="btn btn-primary mr-2"
+            className="btn btn-primary mr-2"
             onClick={() => history.push(`/decks/${deckId}/study`)}
           >
-            <span class="oi oi-book" /> Study
+            <span className="oi oi-book" /> Study
           </button>
           <button
             type="button"
-            class="btn btn-primary"
+            className="btn btn-primary"
             onClick={() => history.push(`/decks/${deckId}/cards/new`)}
           >
-            <span class="oi oi-plus" /> Add Cards
+            <span className="oi oi-plus" /> Add Cards
           </button>
         </div>
 

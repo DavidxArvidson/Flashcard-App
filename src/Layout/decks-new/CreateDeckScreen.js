@@ -32,24 +32,24 @@ function CreateDeckScreen() {
       <h1>Create Deck</h1>
 
       <form onSubmit={handleCreateDeckSubmit}>
-        <div class="form-group">
+        <div className="form-group">
           <label htmlFor="deckName">Name</label>
           <input
             id="deckName"
             type="text"
             name="deckName"
-            class="form-control"
+            className="form-control"
             placeholder="Deck Name"
             onChange={handleDeckNameChange}
             value={deckName}
           />
         </div>
-        <div class="form-group">
+        <div className="form-group">
           <label htmlFor="deckDescription">Description</label>
           <textarea
             id="deckDescription"
             name="deckDescription"
-            class="form-control"
+            className="form-control"
             placeholder="Brief description of the deck"
             rows="5"
             onChange={handleDeckDescriptionChange}
@@ -57,7 +57,7 @@ function CreateDeckScreen() {
           />
         </div>
         <CreateDeckCancelButton />
-        <button type="submit" class="btn btn-primary">
+        <button type="submit" className="btn btn-primary">
           Submit
         </button>
       </form>

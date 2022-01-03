@@ -46,30 +46,30 @@ function EditDeckScreen() {
       <h1>Edit Deck</h1>
 
       <form onSubmit={handleEditDeckSubmit}>
-        <div class="form-group">
+        <div className="form-group">
           <label htmlFor="deckName">Name</label>
           <input
             id="deckName"
             type="text"
             name="deckName"
-            class="form-control"
+            className="form-control"
             onChange={handleDeckNameChange}
             value={deckName}
           />
         </div>
-        <div class="form-group">
+        <div className="form-group">
           <label htmlFor="deckDescription">Description</label>
           <textarea
             id="deckDescription"
             name="deckDescription"
-            class="form-control"
+            className="form-control"
             rows="5"
             onChange={handleDeckDescriptionChange}
             value={deckDescription}
           />
         </div>
         <EditDeckCancelButton deckId={deckId} />
-        <button type="submit" class="btn btn-primary">
+        <button type="submit" className="btn btn-primary">
           Submit
         </button>
       </form>

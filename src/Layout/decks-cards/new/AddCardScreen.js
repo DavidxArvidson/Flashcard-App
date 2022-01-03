@@ -52,7 +52,7 @@ function AddCardScreen() {
             handleCardBackChange={handleCardBackChange}
           />
           <AddCardDoneButton deckId={deckId} />
-          <button type="submit" class="btn btn-primary">
+          <button type="submit" className="btn btn-primary">
             Save
           </button>
         </form>
