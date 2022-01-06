@@ -10,7 +10,7 @@ function AddCardDoneButton({ deckId }) {
       className="btn btn-secondary mr-2"
       onClick={() => history.push(`/decks/${deckId}`)}
     >
-      Done
+      Cancel
     </button>
   );
 }
