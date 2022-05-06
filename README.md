@@ -1,6 +1,6 @@
-# Flashcard-App-Project
+# Flashcard-App
 
-This is a flashcard application that allows users to study online. It allows the creation of new decks and cards, the deletion of decks and cards, and allows users to study existing cards.
+This is a flashcard application that allows users to study online. It allows the creation and deletion of decks and cards and allows users to study existing cards.
 
 This project was developed as an assignment for the Thinkful.com software engineering course. It was developed using React.js and Bootstrap 4.
 
