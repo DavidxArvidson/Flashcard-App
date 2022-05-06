@@ -4,6 +4,9 @@ This is a flashcard application that allows users to study online. It allows the
 
 This project was developed as an assignment for the Thinkful.com software engineering course. It was developed using React.js and Bootstrap 4.
 
+The live website is located here:
+* [Live Site](https://davidxarvidson.github.io/Flashcard-App/)
+
 The home screen looks like the image below. In this case an example deck is shown, however, when initially using the app, no decks would be shown before the user creates one.
 
 ![Home Screen](https://res.cloudinary.com/strive/image/upload/w_1000,h_1000,c_limit/8ad6e17b7d849280a619e4bb69c26baa-home.png)
